@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wedootest Nailletine</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wedootest Nailletine</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="">
+        <input type="text" name="" value="" id="code">
+        <button type="button" name="button" onclick="testCombination()">test</button>
+    </div>
+
+    <div>
+        <h1><span id="counter-turn">0</span> / 10</h1>
+    </div>
+    <div class="good-letters">
+        <h1>Good Letters :</h1>
+        <h3 id="good-letters-number">0</h3>
+    </div>
+
+    <div class="misplaced-letters">
+        <h1>Misplaced Letters :</h1>
+        <h3 id="misplaced-letters-number">0</h3>
+    </div>
+
+    <div>
+        <h1>PREVIOUS TEST :</h1>
+        <div class="history">
+            <h3 id="previous-test"></h3>
+        </div>
+        <div class="good-letters">
+            <h3 id="good-letters-number"></h3>
+        </div>
+        <div class="misplaced-letters">
+            <h3 id="misplaced-letters-number"></h3>
+        </div>
+    </div>
+
+
+    <script src="script.js" charset="utf-8"></script>
 </body>
+
 </html>

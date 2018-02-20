@@ -1,0 +1,12 @@
+.good-letters {
+    display: inline-block;
+}
+
+.misplaced-letters {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.history {
+    display: inline-block;
+}
